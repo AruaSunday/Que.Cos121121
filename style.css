@@ -11,7 +11,7 @@ body {
       -ms-user-select: none;
           user-select: none;
   /* remove text selection */
-  user-drag: none;
+  /* user-drag: none; */
   /* disbale element dragging */
 }
 
@@ -36,24 +36,29 @@ body {
   z-index: 10;
 }
 .sidebar .sidebarContainer {
-  padding: 10px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding: 20px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 .sidebar .sidebarContainer .tag {
+  padding: 20px;
   background: rgba(255, 255, 255, 0.25);
   color: black;
   font-weight: bolder;
 }
 .sidebar .sidebarContainer .title {
+  padding: 20px;
   color: black !important;
 }
 .sidebar .sidebarContainer .subtitle {
+  padding: 20px;
   color: black !important;
 }
-.sidebar .sidebarFooter {
+/* .sidebar .sidebarFooter {
   display: none;
   color: red;
-}
+} */
 
 .questionBox {
   height: 100%;
