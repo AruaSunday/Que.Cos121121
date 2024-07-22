@@ -201,14 +201,14 @@ var quiz = {
     { text: "Can interact with the program as it executes", correct: true },
     { text: "Can save your program" }] },
   {
-    text: "Which data ttype is best for 'City name'",
+    text: "Which data type is best for 'City name'",
     responses: [
     { text: "String", correct: true },
     { text: "Integer" },
     { text: "Floating Point" },
     { text: "Boolean" }] },
   {
-    text: "When a student is learning computer programming, it ios traditional to styart by learning to write ____program.",
+    text: "When a student is learning computer programming, it is traditional to start by learning to write ____program.",
     responses: [
     { text: "Psuedocode" },
     { text: "Simple" },

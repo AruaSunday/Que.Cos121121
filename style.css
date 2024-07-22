@@ -14,7 +14,6 @@ body {
   /* user-drag: none; */
   /* disbale element dragging */
 }
-
 .button {
   transition: 0.3s;
 }
@@ -132,7 +131,7 @@ body {
   margin: 15px 25px;
 }
 
-@media(max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
   body{
     margin-top: 50%;
   }
@@ -145,6 +144,7 @@ body {
   .container .columns .column {
     height: 100%;
   }
+ 
 
   .sidebar {
     display: flex;
@@ -166,5 +166,12 @@ body {
   .sidebar {
     height: 100% !important;
     border-radius: 6px 6px 0px 0px;
+  }
+} */
+
+@media only screen and (min-width: 800px) {
+  .cont{
+    display: flex;
+    flex-direction: row;
   }
 }
