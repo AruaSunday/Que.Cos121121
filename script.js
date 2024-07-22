@@ -20,7 +20,7 @@ var quiz = {
 
 
   {
-    text: "Which of the following is a key word?",
+    text: "Which of the following is not a keyword?",
     responses: [
     { text: "Read" },
     { text: "start", correct: true },
