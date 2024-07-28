@@ -1,6 +1,23 @@
 var quiz = {
   user: "Dave",
   questions: [
+    {
+      text: "A term that refers to the way in which the nodes of a network are linmked together is called?",
+      responses: [
+        { text: "Interconnectivity" },
+        { text: "Topology", correct: true },
+        { text: "Connection" },
+        { text: "Network" }] },
+        
+        {
+          text: "If you are display text which cannot be modified by the user, use the?",
+          responses: [
+          { text: "Lable control", correct: true },
+          { text: "TextBox control" },
+          { text: "Name control" },
+          { text: "Caption control" }] },
+
+          
   {
     text: "The Pseudocode is another name for?",
     responses: [
@@ -8,7 +25,7 @@ var quiz = {
     { text: "Algorithm", correct: true },
     { text: "Flowchart" },
     { text: "Coding" }] },
-
+    
 
   {
     text: "In Visual Basic, the decleration of variables is done by_____key word?",
@@ -19,14 +36,22 @@ var quiz = {
     { text: "static" }] },
 
 
-  {
-    text: "Which of the following is not a keyword?",
-    responses: [
-    { text: "Read" },
-    { text: "start", correct: true },
-    { text: "Write" },
-    { text: "endif" }] },
-
+    
+    {
+      text: "What is flowchart?",
+      responses: [
+        { text: "Is a solution in the program" },
+        { text: "It is a pictorial structure of a program", correct: true },
+        { text: "it is drawing of a structure" },
+        { text: "It is a step by step solution of a program" }] },
+        
+        {
+          text: "Which of the following is not a keyword?",
+          responses: [
+          { text: "Read" },
+          { text: "start", correct: true },
+          { text: "Write" },
+          { text: "endif" }] },
 
   {
     text: "When the user clicks a button,_______ is triggered?",
@@ -69,6 +94,14 @@ var quiz = {
     { text: "used to display a text" }] },
 
 
+    {
+      text: "Finding and fixing programming errors is called?",
+      responses: [
+      { text: "recording" },
+      { text: "tuning" },
+      { text: "debugging", correct: true },
+      { text: "fix-its" }] },
+
   {
     text: "The CancelButton is a property that belongs to____",
     responses: [
@@ -87,7 +120,14 @@ var quiz = {
     { text: "Decision", correct: true },
     { text: "Connectors" }] },
 
-
+    {
+      text: "Which data type is best for 'City name'",
+      responses: [
+      { text: "String", correct: true },
+      { text: "Integer" },
+      { text: "Floating Point" },
+      { text: "Boolean" }] },
+    
   {
     text: "The following phrase are involved in programming execpt?",
     responses: [
@@ -95,13 +135,8 @@ var quiz = {
     { text: "Modelling the program", correct: true },
     { text: "Devising an algroithm" },
     { text: "Problem definition " }] },
-  {
-    text: "What is flowchart?",
-    responses: [
-    { text: "Is a solution in the program" },
-    { text: "It is a pictorial structure of a program", correct: true },
-    { text: "it is drawing of a structure" },
-    { text: "It is a step by step solution of a program" }] },
+
+
   {
     text: "The dirctional arrow shape in the flowchart is used for?",
     responses: [
@@ -109,6 +144,8 @@ var quiz = {
     { text: "Processing" },
     { text: "Decision" },
     { text: "Start/Stop" }] },
+
+
   {
     text: "The trapozodial shape in thw flowchart is used for?",
     responses: [
@@ -116,13 +153,8 @@ var quiz = {
     { text: "Subroutine" },
     { text: "Input/Output", correct: true },
     { text: "Decision/Processing" }] },
-  {
-    text: "A term that refers to the way in which the nodes of a network are linmked together is called?",
-    responses: [
-    { text: "Interconnectivity" },
-    { text: "Topology", correct: true },
-    { text: "Connection" },
-    { text: "Network" }] },
+
+
   {
     text: "What is the correct statment when declearing and assigning the value of 100 to an integer variable called numPeople?",
     responses: [
@@ -130,6 +162,8 @@ var quiz = {
     { text: "Dim NumPeople As Integer = 100" },
     { text: "Dim numPeople As Integer = 100", correct: true },
     { text: "Dim numpeople As Integer = 100" }] },
+
+
   {
     text: "What is the code to close a form?",
     responses: [
@@ -137,6 +171,8 @@ var quiz = {
     { text: "Me.Close()", correct: true },
     { text: "ME.Clear()" },
     { text: "Form.Clear()" }] },
+
+
   {
     text: "In Visual Basic we work with objects, which have?",
     responses: [
@@ -144,6 +180,8 @@ var quiz = {
     { text: "Classes, Actions, and Disciplines" },
     { text: "Properties, Methods, and Events", correct: true },
     { text: "Programmer preference" }] },
+
+
   {
     text: "What is the purpose of the ToolBox?",
     responses: [
@@ -151,6 +189,8 @@ var quiz = {
     { text: "To select methods to be placed on the form" },
     { text: "To select controls with assiocited even procedures"},
     { text: "To select controls and place on an apllication form", correct: true }]},
+
+
   {
     text: "How would you get the Design window to display if it is not visible in your project?",
     responses: [
@@ -158,6 +198,8 @@ var quiz = {
     { text: " Press Shift+f9 on the keyboard" },
     { text: "Select view designer in the edit menu" },
     { text: "Double-click the icon in the toolbar for the designer window" }] },
+
+
   {
     text: "Which is considered a valid step for developing a Visual Basic application?",
     responses: [
@@ -165,20 +207,10 @@ var quiz = {
     { text: "Make a list of the controls needed" },
     { text: "Make a list of the methods needed for each control"},
     { text: "All of the above", correct: true}] },
-  {
-    text: "Finding and fixing programming errors is called?",
-    responses: [
-    { text: "recording" },
-    { text: "tuning" },
-    { text: "debugging", correct: true },
-    { text: "fix-its" }] },
-  {
-    text: "If you are display text which cannot be modified by the user, use the?",
-    responses: [
-    { text: "Lable control", correct: true },
-    { text: "TextBox control" },
-    { text: "Name control" },
-    { text: "Caption control" }] },
+
+
+
+
   {
     text: "Which of the following is NOT a Visual Basic Control?",
     responses: [
@@ -186,6 +218,8 @@ var quiz = {
     { text: "Label" },
     { text: "Algorithm", correct: true },
     { text: "Form" }] },
+
+
   {
     text: "When creating a VB application, you will initially,",
     responses: [
@@ -193,6 +227,8 @@ var quiz = {
     { text: "Correct syntax errors" },
     { text: "Write program statements"},
     { text: "Change control properties", correct:true }] },
+
+
   {
     text: "When your program is in run time mode, you ____",
     responses: [
@@ -200,13 +236,10 @@ var quiz = {
     { text: "Can always edit your program" },
     { text: "Can interact with the program as it executes", correct: true },
     { text: "Can save your program" }] },
-  {
-    text: "Which data type is best for 'City name'",
-    responses: [
-    { text: "String", correct: true },
-    { text: "Integer" },
-    { text: "Floating Point" },
-    { text: "Boolean" }] },
+
+
+
+
   {
     text: "When a student is learning computer programming, it is traditional to start by learning to write ____program.",
     responses: [
@@ -214,6 +247,8 @@ var quiz = {
     { text: "Simple" },
     { text: "Hello World", correct: true },
     { text: "Algorithm" }] },
+
+
   {
     text: "The default property of a textbox control is .......",
     responses: [
@@ -221,6 +256,8 @@ var quiz = {
     { text: "Name" },
     { text: "Enable"},
     { text: "Visible", correct: true}] },
+
+
   {
     text: "What loop control is best suited when you want to repeat a group of statements a specified number of times and loop index counts the number of the loop iterations as the loop executes?",
     responses: [
@@ -228,6 +265,8 @@ var quiz = {
     { text: "For Each .. Next" },
     { text: "For Next", correct: true },
     { text: "While" }] },
+
+
   {
     text: "A file that contains a program code is called a ....file?",
     responses: [
@@ -261,7 +300,6 @@ var app = new Vue({
   methods: {
     selectOption: function (index) {
       Vue.set(this.userResponses, this.questionIndex, index);
-      //console.log(this.userResponses);
     },
     next: function () {
       if (this.questionIndex < this.quiz.questions.length)
@@ -271,7 +309,6 @@ var app = new Vue({
     prev: function () {
       if (this.quiz.questions.length > 0) this.questionIndex--;
     },
-    // Return "true" count in userResponses
     score: function () {
       var score = 0;
       for (let i = 0; i < this.userResponses.length; i++) {
@@ -284,46 +321,6 @@ var app = new Vue({
           score = score + 1;
         }
       }
-      // let answers2 = document.querySelector('.answers');
-      // answers2.classList.add('answers');
-      
       return score;
-
-      //return this.userResponses.filter(function(val) { return val }).length;
     } } });
 
-//     let questions = quiz.questions;
-// let answers = document.querySelector('.answers');
-//     for (let index = 0; index < questions.length; index++) {
-//       const element = questions[index];
-//       console.log(element);
-//       let h1 = document.createElement('h4');
-//       let br = document.createElement('br');
-//       let q = document.createElement('p');
-//       // let q = document.createElement('p');
-//       let h1Content = document.createTextNode(`Question ${index + 1}`)
-//       let qContent = document.createTextNode(`${element.text}`)
-//       h1.appendChild(h1Content)
-//       answers.appendChild(h1)
-//       q.appendChild(qContent)
-//       answers.appendChild(q)
-//       let options = element.responses;
-//       for (let i = 0; i < options.length; i++) {
-//         let o = document.createElement('p');
-//         let b = document.createElement('strong');
-//         const element = options[i];
-//         let oContent = document.createTextNode(`${i == 0 ? '(a)' : i == 1 ? '(b)' : i == 2 ? '(c)' : '(d)'} ${element.text}`);
-//         let bContent = document.createTextNode(` ${element?.correct == true ? ": correct" : ": wrong"}`)
-//         // oContent.append(` ${element?.correct == true ? "correct" : ":wrong"}`)
-//         // let oContent = document.createTextNode(`${i == 0 ? '(a)' : i == 1 ? '(b)' : i == 2 ? '(c)' : '(d)'} ${element.text} ${element?.correct == true ? "correct" : ":wrong"}`);
-//         o.appendChild(oContent);
-//         b.appendChild(bContent)
-//         if(element?.correct == true ){
-//           b.style.color = "green";
-//         } else {
-//           b.style.color = "red";
-//         }
-//         o.appendChild(b);
-//         answers.appendChild(o);
-//       }
-//     }
