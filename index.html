@@ -155,6 +155,21 @@
                      <p class="subtitle">
                         Total score: {{ score() }} / {{ quiz.questions.length }}
                      </p>
+                     <div style="text-align: left;" class="answers">
+                        <div v-for="(question, index) in questions" :key="index">
+                            <!-- <h4>Question {{ index + 1 }}</h4> -->
+                            <p> {{ index + 1 }}. {{ question.text }}</p>
+                            <div v-for="(option, i) in question.responses" :key="i">
+                                <p>
+                                    {{ i === 0 ? '(a)' : i === 1 ? '(b)' : i === 2 ? '(c)' : '(d)' }} {{ option.text }}
+                                    <strong :style="{ color: option.correct ? 'green' : 'red' }">
+                                        {{ option.correct ? ": correct" : ": wrong" }}
+                                    </strong>
+                                </p>
+                            </div>
+                            <br>
+                        </div>
+                     
                      <!--/resultTitleBlock-->
 
                   </div>

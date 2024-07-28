@@ -246,7 +246,8 @@ var app = new Vue({
   el: "#app",
   data: {
     quiz: quiz,
-    questionIndex: 0,
+    questions: quiz.questions,
+    questionIndex: 29,
     userResponses: userResponseSkelaton,
     quizStarted: true,
     isActive: false },
@@ -283,7 +284,46 @@ var app = new Vue({
           score = score + 1;
         }
       }
+      // let answers2 = document.querySelector('.answers');
+      // answers2.classList.add('answers');
+      
       return score;
 
       //return this.userResponses.filter(function(val) { return val }).length;
     } } });
+
+//     let questions = quiz.questions;
+// let answers = document.querySelector('.answers');
+//     for (let index = 0; index < questions.length; index++) {
+//       const element = questions[index];
+//       console.log(element);
+//       let h1 = document.createElement('h4');
+//       let br = document.createElement('br');
+//       let q = document.createElement('p');
+//       // let q = document.createElement('p');
+//       let h1Content = document.createTextNode(`Question ${index + 1}`)
+//       let qContent = document.createTextNode(`${element.text}`)
+//       h1.appendChild(h1Content)
+//       answers.appendChild(h1)
+//       q.appendChild(qContent)
+//       answers.appendChild(q)
+//       let options = element.responses;
+//       for (let i = 0; i < options.length; i++) {
+//         let o = document.createElement('p');
+//         let b = document.createElement('strong');
+//         const element = options[i];
+//         let oContent = document.createTextNode(`${i == 0 ? '(a)' : i == 1 ? '(b)' : i == 2 ? '(c)' : '(d)'} ${element.text}`);
+//         let bContent = document.createTextNode(` ${element?.correct == true ? ": correct" : ": wrong"}`)
+//         // oContent.append(` ${element?.correct == true ? "correct" : ":wrong"}`)
+//         // let oContent = document.createTextNode(`${i == 0 ? '(a)' : i == 1 ? '(b)' : i == 2 ? '(c)' : '(d)'} ${element.text} ${element?.correct == true ? "correct" : ":wrong"}`);
+//         o.appendChild(oContent);
+//         b.appendChild(bContent)
+//         if(element?.correct == true ){
+//           b.style.color = "green";
+//         } else {
+//           b.style.color = "red";
+//         }
+//         o.appendChild(b);
+//         answers.appendChild(o);
+//       }
+//     }
