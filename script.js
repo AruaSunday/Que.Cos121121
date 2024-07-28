@@ -247,7 +247,7 @@ var app = new Vue({
   data: {
     quiz: quiz,
     questions: quiz.questions,
-    questionIndex: 29,
+    questionIndex: 0,
     userResponses: userResponseSkelaton,
     quizStarted: true,
     isActive: false },
